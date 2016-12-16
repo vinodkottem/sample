@@ -1,0 +1,35 @@
+{
+  "name": "Cashbook_tb",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "CashbookID": {
+      "type": "number"
+    },
+    "UserID": {
+      "type": "number"
+    },
+    "Store": {
+      "type": "number"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "CloseBalance": {
+      "type": "number"
+    },
+    "OpenBalance": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+
+  ],
+  "methods": {}
+}

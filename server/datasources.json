@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "SQLDB": {
+    "host": "XXXXX",
+    "port": 50000,
+    "database": "XXXXX",
+    "password": "XXX",
+    "name": "XXXX",
+    "user": "XXXX",
+    "connector": "db2",
+    "schema": "DBO"
+  }
+}
